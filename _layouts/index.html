@@ -25,7 +25,7 @@
             {% if post.type == "sms" %}
             <h5>{{post.representation}} -
                 <a href="sms:{{post.number}}&body={{post.body}}">
-                    {{post.message}}
+                    {{post.title}}
                 </a>
             </h5>
             <p>{{post.impact}}</p>
@@ -39,7 +39,7 @@
             {% assign body = post.body | newline_to_br | strip_newlines | replace: '<br />', '%0D%0A%0D%0A' %}
             <h5>{{post.representation}} -
                 <a href="mailto:{{post.addresses}}?subject={{post.subject}}&body={{body}}">
-                    {{post.message}}
+                    {{post.title}}
                 </a>
             </h5>
             <p>{{post.impact}}</p>

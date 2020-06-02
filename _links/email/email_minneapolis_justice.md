@@ -14,7 +14,7 @@ In addition, I demand that we start providing more support towards community eff
 
 Sincerely,
 [YOUR NAME]"
-message: "Use this template to email Minnesota officials to hold them accountable"
+title: "Use this template to email Minnesota officials to hold them accountable"
 representation: "Maasai Godwin"
 impact: "Using this email will directly contact the government officials in Minneapolis that should be hold responsible for what happened."
 ---

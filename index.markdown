@@ -1,8 +1,6 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: index
+title: BLM & Me
 ---
 I made this site as a way to crowdsource all the links to make an impact on one page. Right now, there's a lot of posts on social media that I keep seeing, but I wanted to aggregate all of them into one source so anyone can add links and people can use this as a one-stop shop to get to all the appropriate ways to take action. 
 
