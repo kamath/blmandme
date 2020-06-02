@@ -1,6 +1,6 @@
 ---
-type: "mailto"
-addresses: "police@minneapolismn.gov,minneapolis311@minneapolismn.gov,citizeninfo@hennepin.us,info@mpdfederation.com,,"
+type: "email"
+addresses: "police@minneapolismn.gov,minneapolis311@minneapolismn.gov,citizeninfo@hennepin.us,info@mpdfederation.com"
 subject: "Justice for the Murder of George Floyd"
 body: "Hello,
 

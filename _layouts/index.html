@@ -13,12 +13,18 @@
     <div class="container">
     	<h1>BLM and Me</h1>
         {{ content }}
+
+        <br>
+
+        <center><i><h5>You can click any of the templates, and all you have to do is hit send. It will come with the number/email and content filled out for you already.</h5></i></center>
+
+        <br>
         <h3>SMS/Text Message Templates</h3>
         <div class="container">
             {% for post in site.links %}
             {% if post.type == "sms" %}
             <h5>{{post.representation}} -
-                <a href="{{post.type}}:{{post.number}}&body={{post.body}}">
+                <a href="sms:{{post.number}}&body={{post.body}}">
                     {{post.message}}
                 </a>
             </h5>
@@ -29,10 +35,10 @@
         <h3>Email Templates</h3>
         <div class="container">
             {% for post in site.links %}
-            {% if post.type == "mailto" %}
+            {% if post.type == "email" %}
             {% assign body = post.body | newline_to_br | strip_newlines | replace: '<br />', '%0D%0A%0D%0A' %}
             <h5>{{post.representation}} -
-                <a href="{{post.type}}:{{post.addresses}}?subject={{post.subject}}&body={{body}}">
+                <a href="mailto:{{post.addresses}}?subject={{post.subject}}&body={{body}}">
                     {{post.message}}
                 </a>
             </h5>
@@ -40,10 +46,10 @@
             {% endif %}
             {% endfor %}
         </div>
-        <h3>Websites</h3>
+        <h3>Petitions</h3>
         <div class="container">
             {% for post in site.links %}
-            {% if post.type == "website" %}
+            {% if post.type == "petition" %}
             <h5>{{post.representation}} -
                 <a href="{{post.link}}">
                     {{post.title}}
@@ -67,7 +73,8 @@
             {% endfor %}
         </div>
         <br>
-        <h5>Made with <i class="fa fa-heart red-text"></i> in New Jersey</h5>
+        <h4>Have more links to contribute? <a href="https://forms.gle/JSdZQPEU7GqKc2mT7">Fill out this Google Form</a> or <a href="https://github.com/andykamath/blmandme">PR on GitHub</a></h4>
+        <h6>Made with <i class="fa fa-heart red-text"></i> in New Jersey</h6>
     </div>
 </body>
 

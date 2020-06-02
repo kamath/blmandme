@@ -1,5 +1,5 @@
 ---
-type: website
+type: petition
 title:  "Sign the petition at JusticeForBigFloyd.com"
 link: "JusticeForBigFloyd.com"
 representation: "Grassroots Law Project"
