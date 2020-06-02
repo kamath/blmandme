@@ -3,68 +3,72 @@
 
 <head>
     <meta charset="utf-8">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>{{ page.title }}</title>
 </head>
 
 <body>
-	{{ content }}
-
-	<h1>SMS/Text Message Templates</h1>
-    <ul>
-        {% for post in site.links %}
-	        {% if post.type == "sms" %}
-	        <h3>{{post.representation}} - 
-	        	<a href="{{post.type}}:{{post.number}}&body={{post.body}}">
-	        		{{post.message}}
-	        	</a>
-	        </h3>
-	        <p>{{post.impact}}</p>
-	        {% endif %}
-        {% endfor %}
-    </ul>
-
-    <h1>Email Templates</h1>
-    <ul>
-        {% for post in site.links %}
-	        {% if post.type == "mailto" %}
-	        {% assign body = post.body | newline_to_br | strip_newlines | replace: '<br />', '%0D%0A%0D%0A' %}
-	        <h3>{{post.representation}} - 
-	        	<a href="{{post.type}}:{{post.addresses}}?subject={{post.subject}}&body={{body}}">
-	        		{{post.message}}
-	        	</a>
-	        </h3>
-	        <p>{{post.impact}}</p>
-	        {% endif %}
-        {% endfor %}
-    </ul>
-
-    <h1>Websites</h1>
-    <ul>
-        {% for post in site.links %}
-	        {% if post.type == "website" %}
-	        <h3>{{post.representation}} - 
-	        	<a href="{{post.link}}">
-	        		{{post.title}}
-	        	</a>
-	        </h3>
-	        <p>{{post.impact}}</p>
-	        {% endif %}
-        {% endfor %}
-    </ul>
-
-    <h1>Fundraisers</h1>
-    <ul>
-        {% for post in site.links %}
-	        {% if post.type == "donation" %}
-	        <h3>{{post.representation}} - 
-	        	<a href="{{post.link}}">
-	        		{{post.title}}
-	        	</a>
-	        </h3>
-	        <p>{{post.impact}}</p>
-	        {% endif %}
-        {% endfor %}
-    </ul>
+    <div class="container">
+    	<h1>BLM and Me</h1>
+        {{ content }}
+        <h3>SMS/Text Message Templates</h3>
+        <div class="container">
+            {% for post in site.links %}
+            {% if post.type == "sms" %}
+            <h5>{{post.representation}} -
+                <a href="{{post.type}}:{{post.number}}&body={{post.body}}">
+                    {{post.message}}
+                </a>
+            </h5>
+            <p>{{post.impact}}</p>
+            {% endif %}
+            {% endfor %}
+        </div>
+        <h3>Email Templates</h3>
+        <div class="container">
+            {% for post in site.links %}
+            {% if post.type == "mailto" %}
+            {% assign body = post.body | newline_to_br | strip_newlines | replace: '<br />', '%0D%0A%0D%0A' %}
+            <h5>{{post.representation}} -
+                <a href="{{post.type}}:{{post.addresses}}?subject={{post.subject}}&body={{body}}">
+                    {{post.message}}
+                </a>
+            </h5>
+            <p>{{post.impact}}</p>
+            {% endif %}
+            {% endfor %}
+        </div>
+        <h3>Websites</h3>
+        <div class="container">
+            {% for post in site.links %}
+            {% if post.type == "website" %}
+            <h5>{{post.representation}} -
+                <a href="{{post.link}}">
+                    {{post.title}}
+                </a>
+            </h5>
+            <p>{{post.impact}}</p>
+            {% endif %}
+            {% endfor %}
+        </div>
+        <h3>Fundraisers</h3>
+        <div class="container">
+            {% for post in site.links %}
+            {% if post.type == "donation" %}
+            <h5>{{post.representation}} -
+                <a href="{{post.link}}">
+                    {{post.title}}
+                </a>
+            </h5>
+            <p>{{post.impact}}</p>
+            {% endif %}
+            {% endfor %}
+        </div>
+        <br>
+        <h5>Made with <i class="fa fa-heart red-text"></i> in New Jersey</h5>
+    </div>
 </body>
 
 </html>
