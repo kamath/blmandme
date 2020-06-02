@@ -13,13 +13,12 @@ If you want to contribute, please don't hesitate to make a pull request! That's 
 **Here are some templates with the correct tags to use:**
 
 ### Email:
-**addresses**: "email1@email.com,email2@email.com,email3@gmail.com" (**MAKE SURE TO SEPARATE BY COMMAS**)
-**subject**: "This is what I want the email subject to be"
-**body**: "Hello,
+- **addresses**: "email1@email.com,email2@email.com,email3@gmail.com" (**MAKE SURE TO SEPARATE BY COMMAS**)
+- **subject**: "This is what I want the email subject to be"
+- **body**: "Hello,
 
 This is an email."
-**message**: "Use this template to email Minnesota officials to hold them accountable" (this will be shown on the site to tell people as a headline what your link will do)
-**representation**: "Supporter" (Who are you? This helps people identify movements and causes they most identify with)
-**impact**: "This is the impact of going to this link" (This helps people get a better idea of what they're signing up for when they visit your link)
----
+- **message**: "Use this template to email Minnesota officials to hold them accountable" (this will be shown on the site to tell people as a headline what your link will do)
+- **representation**: "Supporter" (Who are you? This helps people identify movements and causes they most identify with)
+- **impact**: "This is the impact of going to this link" (This helps people get a better idea of what they're signing up for when they visit your link)
 
