@@ -7,10 +7,18 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>{{ page.title }}</title>
+    <style type="text/css">
+    	.smallercontainer {
+    		padding-left: 50px;
+    		padding-right: 50px;
+    		padding-top: 20px;
+    		padding-bottom: 20px
+    	}
+    </style>
 </head>
 
 <body>
-    <div class="container">
+    <div class="container" style="padding-bottom: 50px">
     	<h1>BLM and Me</h1>
         {{ content }}
 
@@ -20,7 +28,7 @@
 
         <br>
         <h3>SMS/Text Message Templates</h3>
-        <div class="container">
+        <div class="smallercontainer">
             {% for post in site.links %}
             {% if post.type == "sms" %}
             <h5>{{post.representation}} -
@@ -29,11 +37,12 @@
                 </a>
             </h5>
             <p>{{post.impact}}</p>
+            <br>
             {% endif %}
             {% endfor %}
         </div>
         <h3>Email Templates</h3>
-        <div class="container">
+        <div class="smallercontainer">
             {% for post in site.links %}
             {% if post.type == "email" %}
             {% assign body = post.body | newline_to_br | strip_newlines | replace: '<br />', '%0D%0A%0D%0A' %}
@@ -47,7 +56,7 @@
             {% endfor %}
         </div>
         <h3>Petitions</h3>
-        <div class="container">
+        <div class="smallercontainer">
             {% for post in site.links %}
             {% if post.type == "petition" %}
             <h5>{{post.representation}} -
@@ -56,11 +65,12 @@
                 </a>
             </h5>
             <p>{{post.impact}}</p>
+            <br>
             {% endif %}
             {% endfor %}
         </div>
         <h3>Fundraisers</h3>
-        <div class="container">
+        <div class="smallercontainer">
             {% for post in site.links %}
             {% if post.type == "donation" %}
             <h5>{{post.representation}} -
@@ -69,10 +79,10 @@
                 </a>
             </h5>
             <p>{{post.impact}}</p>
+            <br>
             {% endif %}
             {% endfor %}
         </div>
-        <br>
         <h4>Have more links to contribute? <a href="https://forms.gle/JSdZQPEU7GqKc2mT7">Fill out this Google Form</a> or <a href="https://github.com/andykamath/blmandme">PR on GitHub</a></h4>
         <h6>Made with <i class="fa fa-heart red-text"></i> in New Jersey</h6>
     </div>
