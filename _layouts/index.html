@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+</head>
+
+<body>
+	{{ content }}
+
+	<h1>SMS/Text Message Templates</h1>
+    <ul>
+        {% for post in site.links %}
+	        {% if post.type == "sms" %}
+	        <h3>{{post.representation}} - 
+	        	<a href="{{post.type}}:{{post.number}}&body={{post.body}}">
+	        		{{post.message}}
+	        	</a>
+	        </h3>
+	        <p>{{post.impact}}</p>
+	        {% endif %}
+        {% endfor %}
+    </ul>
+
+    <h1>Email Templates</h1>
+    <ul>
+        {% for post in site.links %}
+	        {% if post.type == "mailto" %}
+	        {% assign body = post.body | newline_to_br | strip_newlines | replace: '<br />', '%0D%0A%0D%0A' %}
+	        <h3>{{post.representation}} - 
+	        	<a href="{{post.type}}:{{post.addresses}}?subject={{post.subject}}&body={{body}}">
+	        		{{post.message}}
+	        	</a>
+	        </h3>
+	        <p>{{post.impact}}</p>
+	        {% endif %}
+        {% endfor %}
+    </ul>
+
+    <h1>Websites</h1>
+    <ul>
+        {% for post in site.links %}
+	        {% if post.type == "website" %}
+	        <h3>{{post.representation}} - 
+	        	<a href="{{post.link}}">
+	        		{{post.title}}
+	        	</a>
+	        </h3>
+	        <p>{{post.impact}}</p>
+	        {% endif %}
+        {% endfor %}
+    </ul>
+
+    <h1>Fundraisers</h1>
+    <ul>
+        {% for post in site.links %}
+	        {% if post.type == "donation" %}
+	        <h3>{{post.representation}} - 
+	        	<a href="{{post.link}}">
+	        		{{post.title}}
+	        	</a>
+	        </h3>
+	        <p>{{post.impact}}</p>
+	        {% endif %}
+        {% endfor %}
+    </ul>
+</body>
+
+</html>
