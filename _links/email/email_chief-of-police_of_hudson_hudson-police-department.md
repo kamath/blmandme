@@ -30,7 +30,7 @@ Thank you for your time and I hope that we can work together to protect the Huds
 
 Sincerely,
 [YOUR NAME HERE]"
-title: "HUDSON RESIDENTS - Use this template to email the Chief of Police of Hudson to quiz them on what preventive actions are being taken to protect against police brutality from Hudson Police Department."
+title: "HUDSON, NEW YORK RESIDENTS - Use this template to email the Chief of Police of Hudson to quiz them on what preventive actions are being taken to protect against police brutality from the Hudson Police Department."
 representation: "Cristian Gonzales"
 impact: "Across the nation, members of state police agencies have, time and time again, abused their power and have killed black Americans in a horrific manner, devoid of any lawfulness. Our nation has observed the cruel and evil killings of George Floyd, Breonna Taylor, Eric Garner, Ahmed Aubrey, and countless others of black Americans. Email the Chief of Police for the city of Hudson and press the question--are you, L. Edward Moore, taking any preventative actions to ensure that such acts of cruelty against African Americans don't happen as a consequence of policing with racist motives?"
 ---
