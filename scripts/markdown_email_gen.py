@@ -16,7 +16,7 @@ for csv in list_of_csvs:
     csv_reader = DictReader(csv_file)
     for row in csv_reader:
         # name,position,city,state,police_department_name,email
-        filename = target_dir + os.sep + "email_" + row['position'] + "_of_" + row['city'] + "_" + row['police_department_name']
+        filename = target_dir + os.sep + "email_" + row['name'] +  "_" + row['position'] + "_of_" + row['city'] + "_" + row['police_department_name']
         filename = filename_regex.sub('', filename).replace(' ', '-').lower() + ".md"
         newfile = open(filename, mode='w')
         file_template = open(join(cwd, "contact_person_generic_template.md"))
