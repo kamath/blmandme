@@ -30,8 +30,8 @@ Thank you for your time and I hope that we can work together to protect the Roch
 
 Sincerely,
 [YOUR NAME HERE]"
-title: "ROCHESTER RESIDENTS - Use this template to email the Chief of Police of Rochester to quiz them on what preventive actions are being taken to protect against police brutality from Rochester Police Department."
-representation: "Cristian Gonzales"
+title: "ROCHESTER, NEW YORK RESIDENTS - Use this template to email the Chief of Police of Rochester to quiz them on what preventive actions are being taken to protect against police brutality from the Rochester Police Department."
+representation: "Daniel Gonzales, Cristian Gonzales"
 impact: "Across the nation, members of state police agencies have, time and time again, abused their power and have killed black Americans in a horrific manner, devoid of any lawfulness. Our nation has observed the cruel and evil killings of George Floyd, Breonna Taylor, Eric Garner, Ahmed Aubrey, and countless others of black Americans. Email the Chief of Police for the city of Rochester and press the question--are you, La'Ron Singletary, taking any preventative actions to ensure that such acts of cruelty against African Americans don't happen as a consequence of policing with racist motives?"
 ---
 

@@ -30,8 +30,8 @@ Thank you for your time and I hope that we can work together to protect the hous
 
 Sincerely,
 [YOUR NAME HERE]"
-title: "HOUSTON RESIDENTS - Use this template to email the city council of houston to quiz them on what preventive actions are being taken to protect against police brutality from texas police department."
-representation: "Cristian Gonzales"
+title: "HOUSTON, TEXAS RESIDENTS - Use this template to email the city council of houston to quiz them on what preventive actions are being taken to protect against police brutality from the texas police department."
+representation: "Daniel Gonzales, Cristian Gonzales"
 impact: "Across the nation, members of state police agencies have, time and time again, abused their power and have killed black Americans in a horrific manner, devoid of any lawfulness. Our nation has observed the cruel and evil killings of George Floyd, Breonna Taylor, Eric Garner, Ahmed Aubrey, and countless others of black Americans. Email the city council for the city of houston and press the question--are you, Abbie Kamin, taking any preventative actions to ensure that such acts of cruelty against African Americans don't happen as a consequence of policing with racist motives?"
 ---
 

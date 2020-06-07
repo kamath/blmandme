@@ -30,8 +30,8 @@ Thank you for your time and I hope that we can work together to protect the Itha
 
 Sincerely,
 [YOUR NAME HERE]"
-title: "ITHACA RESIDENTS - Use this template to email the Chief of Police of Ithaca to quiz them on what preventive actions are being taken to protect against police brutality from Ithaca Police Department."
-representation: "Cristian Gonzales"
+title: "ITHACA, NEW YORK RESIDENTS - Use this template to email the Chief of Police of Ithaca to quiz them on what preventive actions are being taken to protect against police brutality from the Ithaca Police Department."
+representation: "Daniel Gonzales, Cristian Gonzales"
 impact: "Across the nation, members of state police agencies have, time and time again, abused their power and have killed black Americans in a horrific manner, devoid of any lawfulness. Our nation has observed the cruel and evil killings of George Floyd, Breonna Taylor, Eric Garner, Ahmed Aubrey, and countless others of black Americans. Email the Chief of Police for the city of Ithaca and press the question--are you, Dennis R. Nayor, taking any preventative actions to ensure that such acts of cruelty against African Americans don't happen as a consequence of policing with racist motives?"
 ---
 
