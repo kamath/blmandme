@@ -35,6 +35,8 @@ for csv in list_of_csvs:
                 line = line.replace("[EMAIL]", row['email'])
             if "[CITY-LARGE]" in line:
                 line = line.replace("[CITY-LARGE]", row['city'].upper())
+            if "[STATE-LARGE]" in line:
+                line = line.replace("[STATE-LARGE]", row['state'].upper())
             # Finally, write the line
             newfile.write(line)
             newfile.flush()
