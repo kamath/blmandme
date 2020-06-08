@@ -31,7 +31,7 @@ Thank you for your time and I hope that we can work together to protect the Brig
 Sincerely,
 [YOUR NAME HERE]"
 title: "BRIGHTON, NEW YORK RESIDENTS - Use this template to email the Chief of Police of Brighton to quiz them on what preventive actions are being taken to protect against police brutality from the Brighton Police Department."
-representation: "Daniel Gonzales, Cristian Gonzales"
+representation: "blacklivesmatters.carrd.co"
 impact: "Across the nation, members of state police agencies have, time and time again, abused their power and have killed black Americans in a horrific manner, devoid of any lawfulness. Our nation has observed the cruel and evil killings of George Floyd, Breonna Taylor, Eric Garner, Ahmed Aubrey, and countless others of black Americans. Email the Chief of Police for the city of Brighton and press the question--are you, David Catholdi, taking any preventative actions to ensure that such acts of cruelty against African Americans don't happen as a consequence of policing with racist motives?"
 ---
 

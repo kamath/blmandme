@@ -31,7 +31,7 @@ Thank you for your time and I hope that we can work together to protect the San 
 Sincerely,
 [YOUR NAME HERE]"
 title: "SAN ANTONIO, TEXAS RESIDENTS - Use this template to email the Chief of Staff District 10 of San Antonio to quiz them on what preventive actions are being taken to protect against police brutality from the San Antonio Police Department."
-representation: "Daniel Gonzales, Cristian Gonzales"
+representation: "blacklivesmatters.carrd.co"
 impact: "Across the nation, members of state police agencies have, time and time again, abused their power and have killed black Americans in a horrific manner, devoid of any lawfulness. Our nation has observed the cruel and evil killings of George Floyd, Breonna Taylor, Eric Garner, Ahmed Aubrey, and countless others of black Americans. Email the Chief of Staff District 10 for the city of San Antonio and press the question--are you, Paul Jimenez, taking any preventative actions to ensure that such acts of cruelty against African Americans don't happen as a consequence of policing with racist motives?"
 ---
 

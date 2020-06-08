@@ -31,7 +31,7 @@ Thank you for your time and I hope that we can work together to protect the Los 
 Sincerely,
 [YOUR NAME HERE]"
 title: "LOS ANGELES, CALIFORNIA RESIDENTS - Use this template to email the Council Member (District 2) of Los Angeles to quiz them on what preventive actions are being taken to protect against police brutality from the Los Angeles Sheriff's Department."
-representation: "Cristian Gonzales"
+representation: "blacklivesmatters.carrd.co"
 impact: "Across the nation, members of state police agencies have, time and time again, abused their power and have killed black Americans in a horrific manner, devoid of any lawfulness. Our nation has observed the cruel and evil killings of George Floyd, Breonna Taylor, Eric Garner, Ahmed Aubrey, and countless others of black Americans. Email the Council Member (District 2) for the city of Los Angeles and press the question--are you, Paul Krekorian, taking any preventative actions to ensure that such acts of cruelty against African Americans don't happen as a consequence of policing with racist motives?"
 ---
 
